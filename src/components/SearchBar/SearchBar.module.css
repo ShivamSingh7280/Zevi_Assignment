@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.searchBarContainer input {
+	width: 50vw;
+	height: 7vh;
+	border-radius: 0.8rem;
+	border: none;
+	font-family: "Poppins", "sans-serrif";
+	font-size: large;
+	font-weight: 400;
+	padding-left: 1rem;
+	position: relative;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchBarContainer input[type="text"]:focus {
+	border-color: #007bff;
+	outline: none;
+}
+
+.searchIcon img {
+	position: absolute;
+	top: 0.7rem;
+	right: 1.1rem;
+	text-align: center;
+}

@@ -1,0 +1,33 @@
+.exploreCardContainer {
+	position: relative;
+}
+
+.imgContainer {
+	position: relative;
+}
+
+.wishlistContainer svg {
+	position: absolute;
+	top: 3%;
+	right: 8%;
+}
+
+.viewProduct {
+	visibility: hidden;
+	height: 10%;
+	width: 100%;
+	background: rgba(109, 132, 255, 0.71);
+	position: absolute;
+	top: 48%;
+	text-align: center;
+	font-size: medium;
+	font-weight: 400;
+	font-family: "Poppins", "sans-serrif";
+	color: white;
+}
+
+.cardContainer:hover {
+	.viewProduct {
+		visibility: visible;
+	}
+}

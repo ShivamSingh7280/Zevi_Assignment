@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.explorePageContainer {
+	font-family: "Poppins", "sans-serrif";
+}
+
+.logo {
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)),
+		url("../../assets/Logo.png") lightgray 50% / cover no-repeat;
+	width: 70px;
+	height: 35px;
+	position: absolute;
+	right: 3vw;
+	top: 5%;
+	margin-left: 15vw;
+}
+
+.exploreSearchContainer input {
+	height: 6vh;
+	width: 35vw;
+	border-radius: 6px;
+	position: absolute;
+	top: 7%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 4px 4px rgba(0, 0.2, 0.2, 0.2);
+	margin: 0 20vw 0 0;
+	font-family: "Poppins", "sans-serrif";
+	font-size: medium;
+	font-weight: 400;
+	border: 1px solid black;
+	padding-left: 0.6rem;
+}
+
+.searchIcon {
+	position: absolute;
+	top: 5vh;
+	right: 38vw;
+}
+
+.contentContainer {
+	margin-top: 18vh;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90vw;
+
+	display: flex;
+	align-items: center;
+	gap: 3%;
+	justify-content: space-between;
+}
+
+.filterHeading {
+	font-size: x-large;
+	font-weight: 400;
+}
+
+.filterSection {
+	width: 20%;
+	height: 80vh;
+	font-family: "Poppins", "sans-serrif";
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.checkboxHeading {
+	font-size: large;
+	font-weight: 500;
+}
+
+.cardSection {
+	width: 76%;
+	height: 100%;
+	padding: 1%;
+}
+
+.subHeading {
+	font-size: medium;
+	font-weight: 400;
+	color: black;
+}
+
+.exploreSearchContainer input[type="text"]:focus {
+	border-color: #007bff;
+	outline: none;
+}
+
+.noProductFound {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
